@@ -9,8 +9,8 @@ $ tsc --init
 = Edit = tsconfig.json
 ------- Create files ------
  index.html
- src/index.ts
- src/concatenation.ts
+  src/index.ts
+  src/concatenation.ts
 ---
 $ tsc
 $ tsc -w
@@ -19,5 +19,5 @@ $ npm init -y // package.json
 $ npm i --save-dev @web/dev-server
 
  in  package.json add line - "start": "web-dev-server --node-resolve --open --watch"
-
+ 
 $ npm start
