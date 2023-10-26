@@ -9,7 +9,9 @@ $ tsc --init
 - Edit - tsconfig.json
 
 ------- Create files ------
- index.html
+
+index.html
+
   src/index.ts
   src/concatenation.ts
 ---
@@ -17,7 +19,7 @@ $ tsc --init
 $ tsc
 $ tsc -w
 
-------- Create server = @web/dev-server
+------- Create server --  @web/dev-server
 $ npm init -y // package.json
 $ npm i --save-dev @web/dev-server
 
