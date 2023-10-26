@@ -21,3 +21,6 @@
 - $ npm i --save-dev @web/dev-server
 -    in  package.json add line - "start": "web-dev-server --node-resolve --open --watch"
 - $ npm start
+
+-------- Debugging - Install source maps в tsconfig.json
+Еo generate =source maps=, you need to add the option ="sourceMap": true= in the ="compilerOptions"= section to tsconfig.json
